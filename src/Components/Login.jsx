@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaUser, FaLock } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
+import Background from '../Asserts/Images/Background.png';
 
 
 function LoginPage() {
@@ -12,8 +13,8 @@ function LoginPage() {
         }
     
     return (
-        <div className='w-full h-screen bg-gradient-to-r from-indigo-400 to-cyan-400 p-5'>
-            <div className='box-border w-72 h-80 bg-indigo-100 shadow-xl rounded-2xl border-solid border-2 border-cyan-400 flex justify-center items-center'>
+        <div className='w-full h-screen bg-slate-500 bg-coverp-5 flex justify-center items-center' style={{ backgroundImage: `url(${Background})` }}>
+            <div className='box-border w-80 h-96 bg-indigo-300 shadow-xl rounded-2xl border-solid border-2 border-cyan-400 flex justify-center items-center'>
                 <form action=''>
                     <h1>Login</h1>
                     <div className="input-box">
