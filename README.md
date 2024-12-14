@@ -27,3 +27,16 @@ This project creates a simple login and registration page using ReactJS for the 
 4. **Handle State and Form Validation**: Manage the form inputs with React state and validate the inputs.  
 5. **Style with TailwindCSS**: Use TailwindCSS utility classes to style the forms and ensure responsiveness.
 
+### **Libraries**  
+Here are the installation commands and the use of each module for your **Login/Register Page** project:
+
+1. **ReactJS**  
+   - **Install Command**:  
+     ```bash
+     npx create-react-app login-register-page
+     ```  
+   - **Use**: To set up the React application for building the login and registration page.  
+     ```bash
+     npx create-react-app login-register-page
+     ```
+
