@@ -66,3 +66,12 @@ Here are the installation commands and the use of each module for your **Login/R
        @tailwind utilities;
        ```
 
+3. **React Router** (Optional for Navigation)  
+   - **Install Command**:  
+     ```bash
+     npm install react-router-dom
+     ```  
+   - **Use**: For navigating between the Login and Register pages.  
+     ```javascript
+     import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+     ```
