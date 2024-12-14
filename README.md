@@ -40,3 +40,29 @@ Here are the installation commands and the use of each module for your **Login/R
      npx create-react-app login-register-page
      ```
 
+2. **TailwindCSS**  
+   - **Install Command**:  
+     ```bash
+     npm install -D tailwindcss postcss autoprefixer
+     npx tailwindcss init
+     ```  
+   - **Use**: For styling the login and registration forms with utility-first classes.  
+     - Add the following to your `tailwind.config.js`:
+       ```javascript
+       module.exports = {
+         content: [
+           "./src/**/*.{html,js,jsx,ts,tsx}",
+         ],
+         theme: {
+           extend: {},
+         },
+         plugins: [],
+       };
+       ```
+     - In your `src/index.css`, add the following:
+       ```css
+       @tailwind base;
+       @tailwind components;
+       @tailwind utilities;
+       ```
+
