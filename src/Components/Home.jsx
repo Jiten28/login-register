@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import Login from './Login';
+import SignUp from './SignUp';
 
 
 
@@ -19,7 +20,7 @@ function handleClickSignUp() {
     <div className="w-full h-screen flex bg-cover bg-f1f1f1" >
     <div className='w-full flex item-center justify-center lg:w-1/2'>
     <Login />
-
+    <SignUp />
     </div>
     <div className='hidden relative lg:flex h-full items-center justify-center bg-gray-200 lg:w-1/2'>
       <div className='w-60 h-60 bg-gradient-to-tr from-indigo-500 to-teal-400 rounded-full animate-bounce '></div>

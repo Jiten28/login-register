@@ -1,9 +1,16 @@
 import * as React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-export default function Form({
+export default function Login({
     setUser,
     setAuthState
 }) {
+    const navigate = useNavigate();
+    
+    function handleClick() {
+        navigate('/signup')
+        }
+        
     return (
         <div className=' w-11/12 max-w-[700px] px-10 py-20 rounded-3xl bg-white border-2 border-gray-100'>
             <h1 className='text-5xl font-semibold'>Welcome Back</h1>
@@ -45,8 +52,7 @@ export default function Form({
                 </div>
                 <div className='mt-8 flex justify-center items-center'>
                     <p className='font-medium text-base'>Don't have an account?</p>
-                    <button 
-                        onClick={() => setAuthState('register')}
+                    <button onClick={handleClick}  
                         className='ml-2 font-medium text-base text-violet-500'>Sign up</button>
                 </div>
             </div>
