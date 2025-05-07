@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import Background from '../Asserts/Images/Background.png';
+import Login from './Login';
+
 
 
 function Home() {
@@ -15,13 +16,16 @@ function handleClickSignUp() {
     }
 
   return (
-    <div className="w-full h-screen bg-cover" style={{ backgroundImage: `url(${Background})` }}>
-        <div className="p-5 flex flex-wrap justify-end">
-          <button onClick={handleClickLogin} className='type-button w-28 h-8 me-2 bg-indigo-900 rounded-full align-right shadow-2xl ring-1 ring-indigo-300 text-white font-bold'>Login</button>
-          <button onClick={handleClickSignUp} className='type-button w-28 h-8 mw-2 bg-indigo-900 rounded-full align-right shadow-2xl ring-1 ring-indigo-300 text-white font-bold'>SignUp</button>
-        </div>
-  </div>
+    <div className="w-full h-screen flex bg-cover bg-f1f1f1" >
+    <div className='w-full flex item-center justify-center lg:w-1/2'>
+    <Login />
 
+    </div>
+    <div className='hidden relative lg:flex h-full items-center justify-center bg-gray-200 lg:w-1/2'>
+      <div className='w-60 h-60 bg-gradient-to-tr from-indigo-500 to-teal-400 rounded-full animate-bounce '></div>
+        {/* <div className='w-full h-1/2 absolute bg-white/10 backdrop-blur-lg'></div> */}
+        </div>
+    </div>
   )
 }
 export default Home
