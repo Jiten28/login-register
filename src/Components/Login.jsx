@@ -12,10 +12,10 @@ export default function Login({
         }
         
     return (
-        <div className='w-full h-screen flex items-center justify-center '>
+        <div className='w-full h-screen flex items-center justify-center bg-sky-100'>
             <div className=' w-full h-screen max-w-[700px] px-5 py-10 rounded-3xl bg-white border-2 border-gray-200'>
-                <h1 className='text-5xl font-semibold'>Welcome Back</h1>
-                <p className='font-medium text-lg text-gray-500 mt-4'>Welcome back! Please enter you details.</p>
+                <h1 className='text-5xl font-semibold'>Hello again!</h1>
+                <p className='font-medium text-lg text-gray-500 mt-4'>Enter your details to continue.</p>
                 <div className='mt-8'>
                     <div className='flex flex-col'>
                         <label className='text-lg font-medium'>Email</label>

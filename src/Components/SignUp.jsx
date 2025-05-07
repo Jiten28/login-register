@@ -1,7 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
-
 export default function SignUp({
     setUser,
     setAuthState
@@ -12,7 +11,7 @@ export default function SignUp({
         navigate('/login')
         }
     return (
-        <div className='w-full h-full flex items-center justify-center '>
+        <div className='w-full h-full flex items-center justify-center bg-sky-100'>
             <div className=' w-full h-full max-w-[700px] px-5 py-10 rounded-3xl bg-white border-2 border-gray-200'>
                 <h1 className='text-5xl font-semibold'>New Here?</h1>
                 <p className='font-medium text-lg text-gray-500 mt-4'>Let’s Get You Signed Up!</p>
@@ -44,7 +43,7 @@ export default function SignUp({
                         />
                     </div>
                     <div className='mt-8 flex flex-col gap-y-4'>
-                        <button className='active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01]  ease-in-out transform py-4 bg-violet-500 rounded-xl text-white font-bold text-lg'>Sign up</button>
+                        <button className=' py-4 bg-violet-500 rounded-xl text-white font-bold text-lg'>Sign up</button>
                         <button
                             className='flex items-center justify-center gap-2 active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01]  ease-in-out transform py-4  rounded-xl text-gray-700 font-semibold text-lg border-2 border-gray-100 '>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
