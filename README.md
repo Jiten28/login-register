@@ -3,6 +3,9 @@
 ### **Overview**  
 This project creates a simple login and registration page using ReactJS for the frontend and TailwindCSS for styling. The page allows users to log in with their credentials or register a new account. The design is responsive and visually appealing, with utility classes from TailwindCSS to quickly style the page.
 
+### **Color Palette**  
+https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25
+
 ### **Key Features**  
 - **Login Form**: Allows users to log in with their username/email and password.  
 - **Registration Form**: Allows users to create an account by providing details like username, email, and password.  

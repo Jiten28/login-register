@@ -11,7 +11,7 @@ export default function SignUp({
         navigate('/login')
         }
     return (
-        <div className='w-full h-full flex items-center justify-center bg-sky-100'>
+        <div className='w-full h-full flex items-center justify-center bg-F5EEDD text-[06202B]'>
             <div className=' w-full h-full max-w-[700px] px-5 py-10 rounded-3xl bg-white border-2 border-gray-200'>
                 <h1 className='text-5xl font-semibold'>New Here?</h1>
                 <p className='font-medium text-lg text-gray-500 mt-4'>Let’s Get You Signed Up!</p>

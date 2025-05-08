@@ -12,8 +12,8 @@ export default function Login({
         }
         
     return (
-        <div className='w-full h-screen flex items-center justify-center bg-sky-100'>
-            <div className=' w-full h-screen max-w-[700px] px-5 py-10 rounded-3xl bg-white border-2 border-gray-200'>
+        <div className='w-full h-screen flex items-center justify-center bg-#f0ebd8 text-[0d1321]'>
+            <div className=' w-full h-screen max-w-[700px] px-5 py-10 rounded-3xl bg-[#7AE2CF] border-2 border-[#077A7D]'>
                 <h1 className='text-5xl font-semibold'>Hello again!</h1>
                 <p className='font-medium text-lg text-gray-500 mt-4'>Enter your details to continue.</p>
                 <div className='mt-8'>
