@@ -15,6 +15,12 @@ function handleClickSignUp() {
 
   return (
     <div className="w-full h-screen flex bg-cover bg-[#000000]/90" >
+      <div className="w-60 h-60 bg-gradient-to-tr from-[#FCA311] to-[#14213D] rounded-full flex items-center justify-center absolute inset-0 m-auto text-white font-bold animate-bounce">
+    <div className="text-center">
+      <label className="text-4xl block">Coming</label>
+      <label className="text-4xl block">Soon...</label>
+    </div>
+    </div>
       <div className='w-full flex item-center justify-end mt-10 mr-10'>
 
         <button onClick={handleClickLogin} className='type-button w-28 h-8 me-2 bg-[#FCA311] 
