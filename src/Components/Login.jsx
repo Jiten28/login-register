@@ -49,7 +49,10 @@ export default function Login({ setUser, setAuthState }) {
                         <button className='font-medium text-base text-violet-500'>Forgot password</button>
                     </div>
                     <div className='mt-8 flex flex-col gap-y-4'>
-                        <button className='active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01] ease-in-out transform py-4 bg-[#FCA311] rounded-xl text-[#03045e] font-bold text-lg border-2 border-yellow-400 '>Sign in</button>
+                        <button 
+                            className='active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01] ease-in-out transform py-4 bg-[#FCA311] rounded-xl text-[#03045e] font-bold text-lg border-2 border-yellow-400 '>
+                            Sign in
+                        </button>
                         <button
                             className='flex items-center justify-center gap-2 active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01]  ease-in-out transform py-4 rounded-xl text-gray-700 font-semibold text-lg bg-[#FEFAE0]/70 border-2 border-gray-100 '>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
