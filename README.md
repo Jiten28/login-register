@@ -78,3 +78,13 @@ Here are the installation commands and the use of each module for your **Login/R
      ```javascript
      import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
      ```
+
+3. **React icon** (Optional for Navigation)  
+   - **Install Command**:  
+     ```bash
+     npm install react-icons
+     ```  
+   - **Use**: For adding icons in to the webpages.  
+     ```javascript
+     import { iconName } from 'react-icons/iconName';
+     ```
