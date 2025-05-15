@@ -5,6 +5,8 @@ This project creates a simple login and registration page using ReactJS for the 
 
 ![image](https://github.com/user-attachments/assets/03883adf-edef-4dae-b6c7-7666b11a8449)
 
+![image](https://github.com/user-attachments/assets/1bed0ced-c416-4ffc-aa77-3751457f6754)
+
 ### **Color Palette**  
 https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff
 
