@@ -14,6 +14,9 @@ export default function Login({ setUser, setAuthState }) {
         setShowPassword(prev => !prev);
     }
 
+    // Proceed with signup logic
+    alert('Logined in successfully!');
+
     return (
         <div className='w-full h-screen flex items-center justify-center bg-[#000000]/90 text-[#14213D] '>
             <div className=' w-full h-screen max-w-[700px] px-5 py-10 rounded-3xl bg-[#E5E5E5]/80 border-4 border-[#000000]/10 '>
@@ -50,6 +53,7 @@ export default function Login({ setUser, setAuthState }) {
                     </div>
                     <div className='mt-8 flex flex-col gap-y-4'>
                         <button 
+                            onClick={handleSignUp}
                             className='active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01] ease-in-out transform py-4 bg-[#FCA311] rounded-xl text-[#03045e] font-bold text-lg border-2 border-yellow-400 '>
                             Sign in
                         </button>
